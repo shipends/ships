@@ -1,0 +1,14 @@
+{
+	"PushProtocol": {
+		"name": "Push Protocol",
+		"path": "push-protocol"
+	},
+	"Filecoin": {
+		"name": "Filecoin",
+		"path": "filecoin"
+	},
+	"Worldcoin": {
+		"name": "Worldcoin",
+		"path": "worldcoin"
+	}
+}
