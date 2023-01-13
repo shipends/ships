@@ -6,7 +6,7 @@
 npm install @rainbow-me/rainbowkit wagmi ethers
 ```
 
-> To ensure our entire app has access to wallet connection, we need to configure + wrap it. So, we will modify \_app.js (Next)
+> To ensure our entire app has access to wallet connection, we need to configure + wrap it. So, we will modify \_app.js (Next.js).
 
 ## 2. Importing
 
@@ -23,16 +23,17 @@ import { publicProvider } from "wagmi/providers/public";
 
 ## 3. Configuring
 
-Go to [Alchemy](https://www.alchemy.com/) -- get your own API key on required network, add it to .env file.
+Go to [Alchemy](https://www.alchemy.com/) -- get your own API key on required network, create a .env file + add it.
 
 ```sh .env
-GOERLI_API_KEY = YmDzvBst74rSPtrEDtYqYDdsoTSD7Sq7
 POLYGON_MUMBAI_API_KEY = BnYvzDrb35eESrtDPtUzNYdoqUGS7Go1
 ```
 
+<!-- GOERLI_API_KEY = YmDzvBst74rSPtrEDtYqYDdsoTSD7Sq7 -->
+
 ```js index.js
 const { chains, provider } = configureChains(
-	[goerli, polygonMumbai],
+	[polygonMumbai],
 	[
 		alchemyProvider({ apiKey: process.env.POLYGON_MUMBAI_API_KEY }),
 		publicProvider(),
@@ -67,4 +68,20 @@ export default function App({ Component, pageProps }) {
 }
 ```
 
-## Connecting
+## 5. Connecting
+
+Now, import ConnectButton in whichever .js file you require.
+
+```js
+import { ConnectButton } from "@rainbow-me/rainbowkit";
+
+export default function Home() {
+	return (
+		<div>
+			...
+			<ConnectButton />
+			...
+		</div>
+	);
+}
+```
