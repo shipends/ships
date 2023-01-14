@@ -1,0 +1,49 @@
+{
+	"sections": [
+		{
+			"index": 0,
+			"title": "Prologue",
+			"path": "prologue.md"
+		},
+		{
+			"index": 1,
+			"title": "Setting up Hardhat",
+			"path": "1_setting_up_hardhat"
+		},
+		{
+			"index": 2,
+			"title": "Writing Smart Contracts",
+			"path": "2_writing_smart_contracts"
+		},
+		{
+			"index": 3,
+			"title": "Intro to Artifacts & Cache",
+			"path": "3_intro_to_artifacts_and_cache"
+		},
+		{
+			"index": 4,
+			"title": "Testing Contracts",
+			"path": "4_testing_contracts"
+		},
+		{
+			"index": 5,
+			"title": "Calling Contract Functions",
+			"path": "5_calling_contract_functions"
+		},
+		{
+			"index": 6,
+			"title": "Going Live",
+			"path": "6_going_live"
+		},
+		{
+			"index": 7,
+			"title": "Verifying on Etherscan",
+			"path": "7_verifying_on_etherscan"
+		},
+		{
+			"index": 8,
+			"title": "Epilogue",
+			"path": "epilogue.md"
+		}
+	]
+}
