@@ -28,10 +28,10 @@ npx hardhat
 
 ## 3. Quick Folder Intro
 
-1.  `node_modules` - All the magical spells of Hardhat reside here
-2.  `contracts` - Smart contracts are written here
-3.  `scripts` - Deployment scripts are made here
-4.  `test` - Testing scripts go here
+-   `node_modules` - All the magical spells of Hardhat reside here
+-   `contracts` - Smart contracts are written here
+-   `scripts` - Deployment scripts are made here
+-   `test` - Testing scripts go here
 
 ## 4. Done
 
