@@ -38,7 +38,7 @@ Scenester tumeric pickled, authentic crucifix post-ironic fam freegan VHS pork b
 
 ### Header 3
 
-```
+```js
 This is a code block following a header.
 ```
 
@@ -154,16 +154,19 @@ npm install
 
 Code can also use syntax highlighting.
 
-```go
-func main() {
-  input := `var foo = "bar";`
-  lexer := lexers.Get("javascript")
-  iterator, _ := lexer.Tokenise(input)
-  style := styles.Get("github")
-  formatter := html.New(html)
-  var buff bytes.Buffer
-  formatter.Format(&buff, style, iterator)
-  fmt.Println(buff.String())
+```js
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.17;
+
+import "hardhat/console.sol";
+
+contract Hello {
+    string public message = "Hello World";
+
+    function getMessage() public view returns (string memory) {
+        return message;
+    }
 }
 ```
 
