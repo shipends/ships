@@ -154,7 +154,7 @@ npm install
 
 Code can also use syntax highlighting.
 
-```js
+```jsx
 // SPDX-License-Identifier: MIT
 
 pragma solidity ^0.8.17;
