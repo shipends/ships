@@ -159,9 +159,9 @@ Code can also use syntax highlighting.
 func main() {
   input := `var foo = "bar";`
   lexer := lexers.Get("javascript")
-  iterator, _ := lexer.Tokenise(nil, input)
+  iterator, _ := lexer.Tokenise(input)
   style := styles.Get("github")
-  formatter := html.New(html.WithLineNumbers())
+  formatter := html.New(html)
   var buff bytes.Buffer
   formatter.Format(&buff, style, iterator)
   fmt.Println(buff.String())
@@ -208,7 +208,3 @@ Plaid hell of cred microdosing, succulents tilde pour-over. Offal shabby chic 3 
 ### External Links
 
 Stumptown PBR&B keytar plaid street art, forage XOXO pitchfork selvage affogato green juice listicle pickled everyday carry hashtag. Organic sustainable letterpress sartorial scenester intelligentsia swag bushwick. Put a bird on it stumptown neutra locavore. IPhone typewriter messenger bag narwhal. Ennui cold-pressed seitan flannel keytar, single-origin coffee adaptogen occupy yuccie williamsburg chillwave shoreditch forage waistcoat.
-
-```
-This is the final element on the page and there should be no margin below this.
-```
