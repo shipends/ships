@@ -148,9 +148,8 @@ Also, `this should vertically align` ~~`with this`~~ ~~and this~~.
 
 Code can also be shown in a block element.
 
-```
-foo := "bar";
-bar := "foo";
+```bash
+npm install
 ```
 
 Code can also use syntax highlighting.
