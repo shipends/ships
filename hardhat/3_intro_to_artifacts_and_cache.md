@@ -1,5 +1,5 @@
 ---
-title: Writing Scripts for Smart Contracts
+title: Intro to Artifacts & Cache
 takes: 2
 ---
 
@@ -23,12 +23,12 @@ Create the following main function after the import statement.
 
 ```js
 const main = async () => {
-    console.log("Hello World");
+	console.log("Hello World");
 };
 
 main().catch((error) => {
-    console.error(error);
-    process.exitCode = 1;
+	console.error(error);
+	process.exitCode = 1;
 });
 ```
 
