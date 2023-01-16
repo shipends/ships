@@ -1,10 +1,6 @@
 ---
 title: Writing Scripts for Smart Contracts
 takes: 2
-next: soon
-nextPath: null
-prev: Writing Smart Contracts
-prevPath: 2_writing_smart_contracts.md
 ---
 
 # Intro to Artifacts & Cache --takes 4 min.

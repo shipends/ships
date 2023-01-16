@@ -1,10 +1,6 @@
 ---
 title: Writing Smart Contracts
-takes: 5
-next: Testing Smart Contracts
-nextPath: 3_testing_smart_contracts.md
-prev: Setting up Hardhat
-prevPath: 1_setting_up_hardhat.md
+takes: 3
 ---
 
 # Writing Smart Contracts --takes 3 min.
@@ -15,7 +11,7 @@ prevPath: 1_setting_up_hardhat.md
 
 ## 1. Installing Extension
 
-Install `Solidity` extension in VS Code by _Juan Blanco_ from **[here](https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity)** -- it will help in debugging + developing faster.
+Install `Solidity` extension in VS Code by _Juan Blanco_ from **[here](https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity)** -- it will help in debugging + developing _faster_.
 
 ## 2. Exploring
 
@@ -43,7 +39,7 @@ contract Hello {
 
 ## 4. Knowing console.sol
 
-`Console.sol` = `console.log in JavaScript` -- it helps in _printing statements_ to terminal during development.
+`console.sol` = `console.log in JavaScript` -- it helps in _printing statements_ to terminal during development.
 
 > Note: Remove console.sol import statment in production.
 

@@ -1,1 +1,4 @@
-## Calling Contract Functions --takes 5 min.
+---
+title: Calling Contract Functions
+takes: 5
+---

@@ -1,10 +1,6 @@
 ---
 title: Setting up Hardhat
 takes: 2
-prev: Index
-prevPath: index.md
-next: Writing Smart Contracts
-nextPath: 2_writing_smart_contracts.md
 ---
 
 # Setting up Hardhat --takes 2 min.
@@ -18,13 +14,13 @@ npm install --save-dev hardhat
 
 ## 2. Project Creation
 
-Run `npx hardhat` in terminal -> Create a _JavaScript_ project -> **SPAM ENTER** for all other options.
+Run `npx hardhat` in terminal -> Create a _JavaScript_ project -> `SPAM ENTER` for all other options.
 
 ```bash
 npx hardhat
 ```
 
-> Note: Whenever you compile/run your smart contract, Hardhat automatically gets the required version downloaded + installed for you -- pretty cool right!
+> **Note:** Whenever you _compile/run_ your smart contract, Hardhat automatically gets the required version downloaded + installed for you -- _pretty cool right!_
 
 ## 3. Quick Folder Intro
 
