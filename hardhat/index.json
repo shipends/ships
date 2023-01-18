@@ -1,86 +1,58 @@
 {
 	"parent": "hardhat",
-	"sections": [
-		{
-			"index": 0,
-			"title": "Prologue",
-			"path": "prologue",
-			"prevTitle": "nothing",
-			"prevPath": "nothing",
-			"nextTitle": "Setting up Hardhat",
-			"nextPath": "1_setting_up_hardhat"
-		},
-		{
-			"index": 1,
-			"title": "Setting up Hardhat",
-			"path": "1_setting_up_hardhat",
-			"prevTitle": "Prologue",
-			"prevPath": "prologue",
-			"nextTitle": "Writing Smart Contracts",
-			"nextPath": "2_writing_smart_contracts"
-		},
-		{
-			"index": 2,
-			"title": "Writing Smart Contracts",
-			"path": "2_writing_smart_contracts",
-			"prevTitle": "Setting up Hardhat",
-			"prevPath": "1_setting_up_hardhat",
-			"nextTitle": "Intro to Artifacts & Cache",
-			"nextPath": "3_intro_to_artifacts_and_cache"
-		},
-		{
-			"index": 3,
-			"title": "Intro to Artifacts & Cache",
-			"path": "3_intro_to_artifacts_and_cache",
-			"prevTitle": "Writing Smart Contracts",
-			"prevPath": "2_writing_smart_contracts",
-			"nextTitle": "Testing Contracts",
-			"nextPath": "4_testing_contracts"
-		},
-		{
-			"index": 4,
-			"title": "Testing Contracts",
-			"path": "4_testing_contracts",
-			"prevTitle": "Intro to Artifacts & Cache",
-			"prevPath": "3_intro_to_artifacts_and_cache",
-			"nextTitle": "Calling Contract Functions",
-			"nextPath": "5_calling_contract_functions"
-		},
-		{
-			"index": 5,
-			"title": "Calling Contract Functions",
-			"path": "5_calling_contract_functions",
-			"prevTitle": "Testing Contracts",
-			"prevPath": "4_testing_contracts",
-			"nextTitle": "Going Live",
-			"nextPath": "6_going_live"
-		},
-		{
-			"index": 6,
-			"title": "Going Live",
-			"path": "6_going_live",
-			"prevTitle": "Calling Contract Functions",
-			"prevPath": "5_calling_contract_functions",
-			"nextTitle": "Verifying on Etherscan",
-			"nextPath": "7_verifying_on_etherscan"
-		},
-		{
-			"index": 7,
-			"title": "Verifying on Etherscan",
-			"path": "7_verifying_on_etherscan",
-			"prevTitle": "Going Live",
-			"prevPath": "6_going_live",
-			"nextTitle": "Epilogue",
-			"nextPath": "epilogue.md"
-		},
-		{
-			"index": 8,
-			"title": "Epilogue",
-			"path": "epilogue.md",
-			"prevTitle": "Verifying on Etherscan",
-			"prevPath": "7_verifying_on_etherscan",
-			"nextTitle": "nothing",
-			"nextPath": "nothing"
-		}
-	]
+	"0": {
+		"title": "Prologue",
+		"path": "prologue",
+		"prevIndex": "nothing",
+		"nextIndex": "1"
+	},
+	"1": {
+		"title": "Setting up Hardhat",
+		"path": "1_setting_up_hardhat",
+		"prevIndex": "0",
+		"nextIndex": "2"
+	},
+	"2": {
+		"title": "Writing Contracts",
+		"path": "2_writing_contracts",
+		"prevIndex": "1",
+		"nextIndex": "3"
+	},
+	"3": {
+		"title": "Intro to Artifacts & Cache",
+		"path": "3_intro_to_artifacts_and_cache",
+		"prevIndex": "2",
+		"nextIndex": "4"
+	},
+	"4": {
+		"title": "Local Deployment",
+		"path": "4_local_deployment",
+		"prevIndex": "3",
+		"nextIndex": "5"
+	},
+	"5": {
+		"title": "Calling Contract Functions",
+		"path": "5_calling_contract_functions",
+		"prevIndex": "4",
+		"nextIndex": "6"
+	},
+	"6": {
+		"title": "Going Live",
+		"path": "6_going_live",
+		"prevIndex": "5",
+		"nextIndex": "7"
+	},
+	"7": {
+		"title": "Verifying on Etherscan",
+		"path": "7_verifying_on_etherscan",
+		"prevIndex": "6",
+		"nextIndex": "8"
+	},
+	"8": {
+		"title": "Epilogue",
+		"path": "epilogue",
+		"prevIndex": "7",
+		"nextIndex": "nothing"
+	},
+	"sections": ["0", "1", "2", "3", "4", "5", "6", "7", "8"]
 }

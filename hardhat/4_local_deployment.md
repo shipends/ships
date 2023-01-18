@@ -1,8 +1,3 @@
----
-title: Deploying Smart Contracts
-takes: 5
----
-
 # Deploying Smart Contracts --takes 5 min.
 
 ## Prerequisites
@@ -23,12 +18,12 @@ Copy + Paste the following code in deploy.js
 const hre = require("hardhat");
 
 const main = async () => {
-	// We'll write deployment logic here
+    // We'll write deployment logic here
 };
 
 main().catch((error) => {
-	console.error(error);
-	process.exitCode = 1;
+    console.error(error);
+    process.exitCode = 1;
 });
 ```
 
@@ -66,11 +61,11 @@ Finally, your main function will look like this.
 
 ```js
 const main = async () => {
-	const contractFactory = await hre.ethers.getContractFactory("Hello");
-	const contract = await contractFactory.deploy();
-	await contract.deployed();
+    const contractFactory = await hre.ethers.getContractFactory("Hello");
+    const contract = await contractFactory.deploy();
+    await contract.deployed();
 
-	console.log(`Deployment address is ${contract.address}`);
+    console.log(`Deployment address is ${contract.address}`);
 };
 ```
 
