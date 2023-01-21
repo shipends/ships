@@ -5,6 +5,7 @@
 			"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
 			"path": "hardhat",
 			"logo": "https://i.imgur.com/eVPmDc1.jpg",
+			"banner": "https://i.imgur.com/9ltNGpI.jpg",
 			"status": "active"
 		},
 		{
@@ -20,6 +21,7 @@
 			"description": "text ever since the 1500s, when an unknown printer took a galley",
 			"path": "wagmi",
 			"logo": "https://i.imgur.com/t8fjzIS.jpg",
+			"banner": "https://i.imgur.com/KivtQGX.jpg",
 			"status": "soon"
 		},
 		{
@@ -27,13 +29,7 @@
 			"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
 			"path": "push-protocol",
 			"logo": "https://i.imgur.com/Vv1JZNk.png",
-			"status": "soon"
-		},
-		{
-			"name": "Worldcoin",
-			"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
-			"path": "worldcoin",
-			"logo": "https://i.imgur.com/XohplId.png",
+			"banner": "https://i.imgur.com/6EMZCyz.jpg",
 			"status": "soon"
 		},
 		{
@@ -41,6 +37,7 @@
 			"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
 			"path": "biconomy",
 			"logo": "https://i.imgur.com/hiM6ZJb.jpg",
+			"banner": "https://i.imgur.com/C1nJRrK.jpg",
 			"status": "soon"
 		}
 	]
