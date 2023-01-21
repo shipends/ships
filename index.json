@@ -2,7 +2,7 @@
 	"ships": [
 		{
 			"name": "Hardhat",
-			"description": "Build production ready smart contracts, starting today.",
+			"description": "Build + deploy + verify production ready smart contracts -- starting today.",
 			"path": "hardhat",
 			"logo": "https://i.imgur.com/eVPmDc1.jpg",
 			"banner": "https://i.imgur.com/9ltNGpI.jpg",
@@ -10,7 +10,7 @@
 		},
 		{
 			"name": "RainbowKit",
-			"description": "The goto connect wallet button for your next dApp.",
+			"description": "The goto connect wallet button for your next dApp is just a click away.",
 			"path": "rainbowkit",
 			"logo": "https://i.imgur.com/W4rhWit.png",
 			"banner": "https://i.imgur.com/wzjm8zv.jpg",
@@ -26,7 +26,7 @@
 		},
 		{
 			"name": "Push Protocol",
-			"description": "The one and only pinky notification centre, your dApp will ever need.",
+			"description": "The one and only pinky notification centre for all your web3 communications.",
 			"path": "push-protocol",
 			"logo": "https://i.imgur.com/Vv1JZNk.png",
 			"banner": "https://i.imgur.com/6EMZCyz.jpg",
@@ -34,7 +34,7 @@
 		},
 		{
 			"name": "Biconomy",
-			"description": "Cast magical spells with wallets.",
+			"description": "Cast magical spells with wallets that work like a charm.",
 			"path": "biconomy",
 			"logo": "https://i.imgur.com/hiM6ZJb.jpg",
 			"banner": "https://i.imgur.com/oQHRqzy.jpg",
