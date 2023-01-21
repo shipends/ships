@@ -2,7 +2,7 @@
 	"ships": [
 		{
 			"name": "Hardhat",
-			"description": "Build + deploy + verify production ready smart contracts -- starting today.",
+			"description": "Build, deploy and verify production ready smart contracts, starting today.",
 			"path": "hardhat",
 			"logo": "https://i.imgur.com/eVPmDc1.jpg",
 			"banner": "https://i.imgur.com/9ltNGpI.jpg",
