@@ -2,7 +2,7 @@
 	"ships": [
 		{
 			"name": "Hardhat",
-			"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+			"description": "Build production ready smart contracts, starting today.",
 			"path": "hardhat",
 			"logo": "https://i.imgur.com/eVPmDc1.jpg",
 			"banner": "https://i.imgur.com/9ltNGpI.jpg",
@@ -10,7 +10,7 @@
 		},
 		{
 			"name": "RainbowKit",
-			"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+			"description": "The goto connect wallet button for your next dApp.",
 			"path": "rainbowkit",
 			"logo": "https://i.imgur.com/W4rhWit.png",
 			"banner": "https://i.imgur.com/wzjm8zv.jpg",
@@ -18,15 +18,15 @@
 		},
 		{
 			"name": "Wagmi",
-			"description": "text ever since the 1500s, when an unknown printer took a galley",
+			"description": "Learn how to interact with smart contracts like a pro.",
 			"path": "wagmi",
 			"logo": "https://i.imgur.com/t8fjzIS.jpg",
-			"banner": "https://i.imgur.com/KivtQGX.jpg",
+			"banner": "https://i.imgur.com/C1nJRrK.jpg",
 			"status": "soon"
 		},
 		{
 			"name": "Push Protocol",
-			"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+			"description": "The one and only pinky notification centre, your dApp will ever need.",
 			"path": "push-protocol",
 			"logo": "https://i.imgur.com/Vv1JZNk.png",
 			"banner": "https://i.imgur.com/6EMZCyz.jpg",
@@ -34,10 +34,10 @@
 		},
 		{
 			"name": "Biconomy",
-			"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+			"description": "Cast magical spells with wallets.",
 			"path": "biconomy",
 			"logo": "https://i.imgur.com/hiM6ZJb.jpg",
-			"banner": "https://i.imgur.com/C1nJRrK.jpg",
+			"banner": "https://i.imgur.com/oQHRqzy.jpg",
 			"status": "soon"
 		}
 	]
