@@ -4,36 +4,42 @@
 			"name": "Hardhat",
 			"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
 			"path": "hardhat",
+			"logo": "https://i.imgur.com/eVPmDc1.jpg",
 			"status": "active"
 		},
 		{
 			"name": "RainbowKit",
 			"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
 			"path": "rainbowkit",
+			"logo": "https://i.imgur.com/W4rhWit.png",
 			"status": "soon"
 		},
 		{
 			"name": "Wagmi",
 			"description": "text ever since the 1500s, when an unknown printer took a galley",
 			"path": "wagmi",
+			"logo": "https://i.imgur.com/t8fjzIS.jpg",
 			"status": "soon"
 		},
 		{
 			"name": "Push Protocol",
 			"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
 			"path": "push-protocol",
+			"logo": "https://i.imgur.com/VwdszTd.png",
 			"status": "soon"
 		},
 		{
 			"name": "Worldcoin",
 			"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
 			"path": "worldcoin",
+			"logo": "https://i.imgur.com/XohplId.png",
 			"status": "soon"
 		},
 		{
 			"name": "Biconomy",
 			"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
 			"path": "biconomy",
+			"biconomy": "https://i.imgur.com/IxRubwS.png",
 			"status": "soon"
 		}
 	]
