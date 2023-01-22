@@ -1,6 +1,7 @@
 ---
 title: Intro to Artifacts & Cache
 takes: 2
+section: 3
 ---
 
 # Intro to Artifacts & Cache --takes 4 min.

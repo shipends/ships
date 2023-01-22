@@ -1,6 +1,7 @@
 ---
 title: Setting up Hardhat
 takes: 2
+section: 1
 ---
 
 # Setting up Hardhat --takes 2 min.

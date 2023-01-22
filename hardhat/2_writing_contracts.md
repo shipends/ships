@@ -1,6 +1,7 @@
 ---
 title: Writing Smart Contracts
 takes: 3
+section: 2
 ---
 
 # Writing Smart Contracts --takes 3 min.
