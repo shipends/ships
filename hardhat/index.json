@@ -16,14 +16,14 @@
 		"nextIndex": "2"
 	},
 	"2": {
-		"title": "Writing Contracts",
-		"path": "2_writing_contracts",
+		"title": "Writing Smart Contracts",
+		"path": "2_writing_samrt_contracts",
 		"prevIndex": "1",
 		"nextIndex": "3"
 	},
 	"3": {
-		"title": "Intro to Artifacts & Cache",
-		"path": "3_intro_to_artifacts_and_cache",
+		"title": "Under the Hood",
+		"path": "3_under_the_hood",
 		"prevIndex": "2",
 		"nextIndex": "4"
 	},
