@@ -1,61 +1,35 @@
 {
 	"parent": "hardhat",
-	"-1": {
-		"title": "nothing"
-	},
+	"banner": "https://i.imgur.com/lEj5AHA.jpg",
 	"0": {
-		"title": "Prologue",
-		"path": "prologue",
-		"prevIndex": "-1",
-		"nextIndex": "1"
+		"title": "Set up Hardhat + start doing magical stuff.",
+		"description": "Start writing production-ready smart contracts -- right from scratch.",
+		"path": "setting_up_hardhat",
+		"takes": 5
 	},
 	"1": {
-		"title": "Setting up Hardhat",
-		"path": "1_setting_up_hardhat",
-		"prevIndex": "0",
-		"nextIndex": "2"
+		"title": "How hardhat works under the hood?",
+		"description": "Wanna connect smart contract to your frontend, you definitely gotta know this.",
+		"path": "under_the_hood",
+		"takes": 5
 	},
 	"2": {
-		"title": "Writing Smart Contracts",
-		"path": "2_writing_smart_contracts",
-		"prevIndex": "1",
-		"nextIndex": "3"
+		"title": "Deploy smart contracts locally.",
+		"description": "You haven't wrote a smart contract, if it isn't deployed -- right?",
+		"path": "local_deployment",
+		"takes": 5
 	},
 	"3": {
-		"title": "Under the Hood",
-		"path": "3_under_the_hood",
-		"prevIndex": "2",
-		"nextIndex": "4"
+		"title": "Deploy your smart contract on Testnet.",
+		"description": "If it's on localhost, it didn't happen -- simple!",
+		"path": "deploy_testnet",
+		"takes": 5
 	},
 	"4": {
-		"title": "Local Deployment",
-		"path": "4_local_deployment",
-		"prevIndex": "3",
-		"nextIndex": "5"
+		"title": "Verify your smart contract on Etherscan",
+		"description": "Forget Twitter Blue, lemme introduce you to Etherscan Green.",
+		"path": "verify_etherscan",
+		"takes": 5
 	},
-	"5": {
-		"title": "Calling Contract Functions",
-		"path": "5_calling_contract_functions",
-		"prevIndex": "4",
-		"nextIndex": "6"
-	},
-	"6": {
-		"title": "Going Live",
-		"path": "6_going_live",
-		"prevIndex": "5",
-		"nextIndex": "7"
-	},
-	"7": {
-		"title": "Verifying on Etherscan",
-		"path": "7_verifying_on_etherscan",
-		"prevIndex": "6",
-		"nextIndex": "8"
-	},
-	"8": {
-		"title": "Epilogue",
-		"path": "epilogue",
-		"prevIndex": "7",
-		"nextIndex": "-1"
-	},
-	"sections": ["0", "1", "2", "3", "4", "5", "6", "7", "8"]
+	"sections": ["0", "1", "2", "3", "4"]
 }
